@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("hnhjiuhiuhuihDocker CI/CD funcionando correctamenteeeee");
+  res.end("hnhiuhuihDocker CI/CD funcionando correctamenteeeee");
 });
 
 server.listen(3000, () => {
